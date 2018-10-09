@@ -1,3 +1,111 @@
-// Place all the styles related to the StaticPages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+/*p {
+  color: black;
+  size: 100%;
+  background-color: lightgray;
+  text-align: center;
+  border: 1px solid ;
+  font-size: 125%;
+  font-style: monospace;
+  opacity: 0.7;
+}*/
+/*
+img {
+  width: 30%;
+  opacity: 0.8;
+}*/
+
+.first {
+  font-size: 50px;
+  background: blue;
+}
+
+personal-paragraph {
+  background: orange;
+  text-align: right;
+}
+
+#yuk {
+  display: block;
+  opacity: 0.3;
+  margin-right: auto;
+  margin-left: auto;
+  width: 30% 
+
+}
+
+
+ul {
+  list-style: none;
+  text-align: center;
+  padding: 0px;
+}
+
+li {
+  display: inline-block;
+  margin: 5px;
+  width:30%;
+
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.7em;
+  background-color: lightgrey;
+  padding: 2px;
+  border-radius: 6px;
+}
+
+a:hover {
+  background-color: purple;
+  transition: 500ms;
+  color: white;
+}
+
+body {
+  background-image:url("mine.jpg");
+  background-size: 50%;
+}
+
+#about-me {
+  display: inline-block;
+  width:60%;
+  color: black;
+  size: 100%;
+  background-color: lightgray;
+  text-align: center;
+  border: 1px solid ;
+  border-radius: 0.2%;
+  font-size: 125%;
+  font-style: monospace;
+  opacity: 0.8;
+  }
+
+.contact-link {
+  color:black;
+  margin-top: 10px
+  }
+
+
+
+.contact-link i {
+  color: white;
+  background: lightgray;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+#about-me-img {
+  float:left;
+  max-width: 30%;
+  margin: 5px 20px 5px 0;
+  border-radius: 5%;
+  border: 1px solid;
+  opacity: .8;
+
+}
+
+.image-button {
+  height: 5%;
+  width: 5%;
+}

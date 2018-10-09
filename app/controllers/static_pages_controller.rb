@@ -11,5 +11,5 @@ class StaticPagesController < ApplicationController
   def portfolio
     render "portfolio"
   end
-  
+
 end
